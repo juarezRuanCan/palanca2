@@ -122,9 +122,11 @@ window.addEventListener("deviceorientation",function(event) {
     console.log(alpha)
     console.log(beta)
     console.log(gamma)
-    if(alpha != 0){
-        area1.style.background = "black"
-    }
-  }, true);
+
+    EX.innerHTML = "X:"+alpha
+    EY.innerHTML = "Y:"+beta 
+    EZ.innerHTML = "Z:"+gamma
+
+}, true);
 
 // console.log("as")
